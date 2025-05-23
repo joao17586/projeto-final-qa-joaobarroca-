@@ -39,13 +39,13 @@ Teste 01 – Selenium
 - Arquivo: teste/teste_01.py
 
 Teste 02 – Teste unitário
-- Bibliotecas usadas:** unittest  requests
+- Bibliotecas usadas:** 'unittest'  'requests'
 - O que faz: Faz um teste unitário verificando se o nome do usuário retornado pela API está correto
 - Resultado esperado: O teste passa se o nome retornado for "Janet", como esperado
 - Arquivo: teste/teste_02.py
 
 Teste 03 – Regressao
-- Bibliotecas usadas: requests
+- Bibliotecas usadas:** 'requests'
 - O que faz: Verifica se a API da ReqRes continua respondendo corretamente
 - Resultado esperado: O teste passa se a resposta da API for 200, indicando que o comportamento esperado continua funcionando
 - Arquivo: teste/teste_03.py
