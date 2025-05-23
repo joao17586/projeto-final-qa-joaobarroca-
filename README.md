@@ -2,8 +2,8 @@ Projeto Final - Quality Assurance em Foco: Da Teoria à Prática
 
 1. Apresentação
 
--Nome completo:** João Pedro Curcino Barroca  
-- Curso e semestre:** Gestão da Tecnologia da Informação – 5º semestre  
+-Nome completo:João Pedro Curcino Barroca  
+- Curso e semestre: Gestão da Tecnologia da Informação – 5º semestre  
 - Minha experiência com a disciplina: Gostei bastante da disciplina. O professor Rodrigo explica muito bem, o que facilitou muito o entendimento dos conteúdos. Consegui aprender na prática como a qualidade faz toda a diferença no desenvolvimento de software.
 
 
@@ -32,29 +32,28 @@ Também aprendi a planejar os testes, pensar em critérios de aceitação, escre
 
 5. Explicando os Testes que Entreguei
 
-### ✅ Teste 01 – Status da API
-- **Biblioteca usada:** `requests`
-- **O que faz:** Verifica se a API está funcionando e retorna status 200
-- **Resultado esperado:** Se o status for 200, o teste passa
-- **Arquivo:** `testes/teste_01.py`
+Teste 01 – Selenium
+- Biblioteca usada:** `selenium`
+- O que faz:Automatiza uma ação em uma página web, simulando o comportamento de um usuário
+- Resultado esperado:O teste passa se o Selenium conseguir encontrar e interagir com o elemento desejado na página
+- Arquivo: testes/teste_01.py
 
-### ✅ Teste 02 – Nome do usuário retornado pela API
-- **Bibliotecas usadas:** `unittest` + `requests`
-- **O que faz:** Confere se o nome retornado da API é "Janet"
-- **Resultado esperado:** O teste passa se o nome estiver correto
-- **Arquivo:** `testes/teste_02.py`
+Teste 02 – Teste unitário
+- Bibliotecas usadas:** unittest  requests
+- O que faz: Faz um teste unitário verificando se o nome do usuário retornado pela API está correto
+- Resultado esperado: O teste passa se o nome retornado for "Janet", como esperado
+- Arquivo: testes/teste_02.py
 
-### ✅ Teste 03 – Tentativa de login com dados incompletos
-- **Bibliotecas usadas:** `unittest` + `requests`
-- **O que faz:** Tenta fazer login com email, mas sem senha
-- **Resultado esperado:** O teste passa se a API retornar erro 400 (como esperado)
-- **Arquivo:** `testes/teste_03.py`
+Teste 03 – Regressao
+- Bibliotecas usadas: requests
+- O que faz: Verifica se a API da ReqRes continua respondendo corretamente
+- Resultado esperado: O teste passa se a resposta da API for 200, indicando que o comportamento esperado continua funcionando
+- Arquivo: testes/teste_03.py
 
----
 
-## 6. Conclusão
+6. Conclusão
 
-O que mais aprendi nessa disciplina foi como o QA é essencial para entregar um software com qualidade. Testar ajuda a evitar falhas que podem dar muita dor de cabeça lá na frente. Percebi que QA não é só “testar código”, é pensar no usuário e na experiência dele. Gostei muito de aprender sobre automação de testes e também achei muito interessante o UptimeRobot, por mostrar como monitorar o sistema depois que ele já está no ar. Vejo a área de QA como uma grande oportunidade no mercado e uma porta de entrada muito boa na área de tecnologia.
+O que mais aprendi nessa disciplina foi como o QA é essencial para entregar um software com qualidade. Testar ajuda a evitar falhas que podem dar muita dor de cabeça lá na frente. Gostei muito de aprender sobre automação de testes e também achei muito interessante o UptimeRobot, por mostrar como monitorar o sistema depois que ele já está no ar. Vejo a área de QA como uma grande oportunidade no mercado e uma porta de entrada muito boa na área de tecnologia.
 
 
 
