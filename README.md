@@ -1,98 +1,63 @@
+Projeto Final - Quality Assurance em Foco: Da Teoria à Prática
+
 1. Apresentação
-Nome completo
 
-
-Curso e semestre
-
-
-Um parágrafo com uma breve descrição da sua experiência com a disciplina
+-Nome completo:** João Pedro Curcino Barroca  
+- Curso e semestre:** Gestão da Tecnologia da Informação – 5º semestre  
+- Minha experiência com a disciplina: Gostei bastante da disciplina. O professor Rodrigo explica muito bem, o que facilitou muito o entendimento dos conteúdos. Consegui aprender na prática como a qualidade faz toda a diferença no desenvolvimento de software.
 
 
 2. O que é Quality Assurance (QA)?
-Explique com suas palavras o conceito de QA e sua importância no desenvolvimento de software
+
+Quality Assurance, ou QA, é o cuidado que a gente tem com a qualidade de um sistema antes de entregar para o usuário. É como revisar um trabalho antes de entregar: testamos, conferimos se está tudo certo e tentamos evitar qualquer erro.
+
+No desenvolvimento de software, o QA ajuda a garantir que tudo funcione direitinho e que o usuário tenha uma boa experiência. Também evita retrabalho, prejuízo e estresse depois que o sistema já está pronto. No fim das contas, QA é sobre entregar algo com mais confiança e segurança.
 
 
-Use uma linguagem simples e acessível, como se estivesse explicando para alguém leigo
+3. Conceitos que Aprendi Durante o Semestre
+
+Durante o semestre, aprendi que qualidade em software é uma responsabilidade de todo mundo na equipe, e não só de quem testa. Conheci vários tipos de testes, como os testes unitários, de integração, sistema, aceitação, regressão e testes exploratórios — cada um com sua função para garantir que tudo funcione como deve.
+
+Também aprendi a planejar os testes, pensar em critérios de aceitação, escrever casos de teste e organizar tudo com clareza. Usamos ferramentas como o Google Colab, GitHub e até simuladores de API como o ReqRes. Outra parte muito legal foi ver como os testes podem ser automatizados e usados junto com CI/CD. E ainda aprendemos sobre como acompanhar a qualidade do sistema com métricas, rastreamento de bugs e monitoramento.
 
 
-3. Conceitos Aprendidos Durante o Semestre
-Escreva um parágrafo explicando o que você aprendeu sobre:
-Qualidade em software e cultura de qualidade
+4. Ferramentas e Sites que Usei
+
+- ReqRes API
+- [Google Colab
+- GitHub
+- UptimeRobot
+- VisualStudioCode 
 
 
-Tipos de testes (unitário, integração, sistema, aceitação, regressão e exploratório)
+5. Explicando os Testes que Entreguei
 
+### ✅ Teste 01 – Status da API
+- **Biblioteca usada:** `requests`
+- **O que faz:** Verifica se a API está funcionando e retorna status 200
+- **Resultado esperado:** Se o status for 200, o teste passa
+- **Arquivo:** `testes/teste_01.py`
 
-Planejamento de testes (critérios de aceitação, planos e casos de teste)
+### ✅ Teste 02 – Nome do usuário retornado pela API
+- **Bibliotecas usadas:** `unittest` + `requests`
+- **O que faz:** Confere se o nome retornado da API é "Janet"
+- **Resultado esperado:** O teste passa se o nome estiver correto
+- **Arquivo:** `testes/teste_02.py`
 
+### ✅ Teste 03 – Tentativa de login com dados incompletos
+- **Bibliotecas usadas:** `unittest` + `requests`
+- **O que faz:** Tenta fazer login com email, mas sem senha
+- **Resultado esperado:** O teste passa se a API retornar erro 400 (como esperado)
+- **Arquivo:** `testes/teste_03.py`
 
-Ferramentas de testes utilizadas durante o semestre (Colab, GitHub, etc.)
+---
 
+## 6. Conclusão
 
-Automação de testes e integração com CI/CD
-
-
-Monitoramento e controle de qualidade (uso de métricas, rastreamento de bugs, observabilidade)
-
-
-4. Ferramentas e Sites Utilizados
-Liste todos os sites e ferramentas que você usou durante o curso, por exemplo:
-https://reqres.in/
-
-
-https://colab.research.google.com/ 
-
-
-https://github.com/
-
-
-https://uptimerobot.com/
-
-
-(outros que desejar incluir)
-
-
-5. Explicação dos Testes Entregues
-Para cada um dos três testes obrigatórios entregues na pasta /testes, responda:
-Nome do teste
-
-
-Objetivo
-
-
-Qual biblioteca Python foi utilizada
-
-
-Qual resultado esperado
-
-
-Link para o arquivo (ex: testes/teste_01.py)
-
-
-Exemplo de formatação:
-
-✅ Teste 01 – Verificação de status da API ReqRes
-Biblioteca: Requests
-
-
-Objetivo: Verificar se o endpoint retorna status HTTP 200
-
-
-Resultado esperado: Teste passa com sucesso se o status for 200
-
-
-Arquivo: testes/teste_01.py
+O que mais aprendi nessa disciplina foi como o QA é essencial para entregar um software com qualidade. Testar ajuda a evitar falhas que podem dar muita dor de cabeça lá na frente. Percebi que QA não é só “testar código”, é pensar no usuário e na experiência dele. Gostei muito de aprender sobre automação de testes e também achei muito interessante o UptimeRobot, por mostrar como monitorar o sistema depois que ele já está no ar. Vejo a área de QA como uma grande oportunidade no mercado e uma porta de entrada muito boa na área de tecnologia.
 
 
 
-6. Conclusão Final
-Escreva um parágrafo com sua reflexão pessoal, respondendo:
-O que você aprendeu de mais importante?
 
-
-Como você enxerga a área de QA no seu futuro profissional?
-
-
-Qual ferramenta ou tema mais chamou sua atenção e por quê?
 
 
