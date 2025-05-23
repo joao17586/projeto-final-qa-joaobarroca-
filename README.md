@@ -1,8 +1,8 @@
 Projeto Final - Quality Assurance em Foco: Da Teoria à Prática
 
-1. Apresentação
+Apresentação
 
--Nome completo:João Pedro Curcino Barroca  
+Nome completo:João Pedro Curcino Barroca  
 - Curso e semestre: Gestão da Tecnologia da Informação – 5º semestre  
 - Minha experiência com a disciplina: Gostei bastante da disciplina. O professor Rodrigo explica muito bem, o que facilitou muito o entendimento dos conteúdos. Consegui aprender na prática como a qualidade faz toda a diferença no desenvolvimento de software.
 
@@ -36,19 +36,19 @@ Teste 01 – Selenium
 - Biblioteca usada:** `selenium`
 - O que faz:Automatiza uma ação em uma página web, simulando o comportamento de um usuário
 - Resultado esperado:O teste passa se o Selenium conseguir encontrar e interagir com o elemento desejado na página
-- Arquivo: testes/teste_01.py
+- Arquivo: teste/teste_01.py
 
 Teste 02 – Teste unitário
 - Bibliotecas usadas:** unittest  requests
 - O que faz: Faz um teste unitário verificando se o nome do usuário retornado pela API está correto
 - Resultado esperado: O teste passa se o nome retornado for "Janet", como esperado
-- Arquivo: testes/teste_02.py
+- Arquivo: teste/teste_02.py
 
 Teste 03 – Regressao
 - Bibliotecas usadas: requests
 - O que faz: Verifica se a API da ReqRes continua respondendo corretamente
 - Resultado esperado: O teste passa se a resposta da API for 200, indicando que o comportamento esperado continua funcionando
-- Arquivo: testes/teste_03.py
+- Arquivo: teste/teste_03.py
 
 
 6. Conclusão
